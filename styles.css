@@ -1,0 +1,36 @@
+/* CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.btn-primary {
+  &:hover,
+  &:focus {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  }
+}
+
+.btn {
+  transition: 0.25s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  box-shadow: inset 12em 0 0 0 rgb(225, 225, 225);
+}
+
+.btn-outline-primary:hover {
+  background-color: rgb(225, 225, 225);
+  color: rgb(0, 0, 0);
+}
+
+/* Add your custom styles below this line */
