@@ -9,13 +9,13 @@
       crossorigin="anonymous"
     ></script>
     <!-- CUSTOM BOOTSTRAP CSS (SCSS MODIFICATIONS) -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
+    <script
+      src="https://kit.fontawesome.com/8982374300.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/assets/css/main.min.css" />
-    <link rel="stylesheet" href="/styles.css" />
-    <title>SA | Home</title>
+    <link rel="stylesheet" href="/globals.css" />
+    <title>Cynthia Breazeal | Home</title>
   </head>
   <body data-bs-theme="light">
     <div class="container-fluid">
@@ -25,7 +25,7 @@
             <div class="row justify-content-center bg-purple">
               <nav class="navbar navbar-expand-lg navbar-ligh px-3">
                 <div class="container-fluid p-0">
-                  <a class="navbar-brand fw-bold" href="#">CYNTH/A</a>
+                  <a class="navbar-brand fw-bold" href="index.html">CYNTH/A</a>
                   <button
                     class="navbar-toggler"
                     type="button"
@@ -59,24 +59,30 @@
                           aria-labelledby="navbarDropdown"
                         >
                           <li>
-                            <a class="dropdown-item" href="#">Overview</a>
+                            <a class="dropdown-item" href="index.html"
+                              >Overview</a
+                            >
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#">Life Story</a>
+                            <a class="dropdown-item" href="innovator.html"
+                              >Life Story</a
+                            >
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#">Resources</a>
+                            <a class="dropdown-item" href="resources.html"
+                              >Resources</a
+                            >
                           </li>
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" href="team.html">Team</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Process</a>
+                        <a class="nav-link" href="process.html">Process</a>
                       </li>
                     </ul>
                   </div>
@@ -84,13 +90,13 @@
               </nav>
             </div>
 
-            <div class="row justify-content-center bg-blue flex-grow-1">
+            <div class="row justify-content-center flex-grow-1">
               <div class="row row-gap-3">
                 <div class="col-xl-6 d-flex align-items-center">
                   <div class="jumbotron text-left">
                     <p class="fs-5">A leading woman in technology</p>
                     <h1 class="display-2 fw-bold">
-                      <span class="auto-type"></span>
+                      <span class="auto-type">&zwnj;</span>
                     </h1>
                     <p class="w-75 fs-3 my-3">
                       Now currently leading the Personal Robotics Group at MIT,
@@ -98,9 +104,11 @@
                       field as a woman in STEM
                     </p>
                     <div class="d-flex flex-row gap-3 mt-4">
-                      <button class="btn btn-primary">Read Her Story</button>
+                      <button class="btn btn-primary">
+                        <a href="innovator.html">Read Her Story</a>
+                      </button>
                       <button class="btn btn-outline-primary">
-                        Innovations
+                        <a href="innovator.html">Innovations</a>
                       </button>
                     </div>
                   </div>
@@ -108,7 +116,7 @@
                 <div class="col-xl-6">
                   <div class="w-80 h-100 m-auto">
                     <img
-                      src="assets/cynthia-02.jpg"
+                      src="assets/cynthia-02.png"
                       alt="Image"
                       class="img-fluid object-fit-cover"
                       style="width: 100%; height: 100%"
@@ -126,7 +134,7 @@
     <script>
       var typed = new Typed('.auto-type', {
         strings: ['Cynthia Breazeal'],
-        typeSpeed: 50,
+        typeSpeed: 25,
         showCursor: false,
       });
     </script>

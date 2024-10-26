@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CUSTOM BOOTSTRAP CSS (SCSS MODIFICATIONS) -->
+    <link rel="stylesheet" href="/assets/css/main.min.css" />
+    <link rel="stylesheet" href="/globals.css" />
+    <title>Cynthia Breazeal | Home</title>
+  </head>
+  <body data-bs-theme="light">
+    <div class="container-fluid">
+      <div class="row justify-content-center min-vh-100">
+        <div class="col-11">
+          <div class="d-flex flex-column h-100">
+            <div class="row justify-content-center bg-purple">
+              <nav class="navbar navbar-expand-lg navbar-ligh px-3">
+                <div class="container-fluid p-0">
+                  <a class="navbar-brand fw-bold" href="index.html">CYNTH/A</a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="navbarNav"
+                  >
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Cynthia
+                          <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <li>
+                            <a class="dropdown-item" href="index.html"
+                              >Overview</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="innovator.html"
+                              >Life Story</a
+                            >
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="resources.html"
+                              >Resources</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="process.html">Process</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+
+            <div
+              class="row justify-content-center flex-grow-1 d-flex align-items-center"
+            >
+              <div class="row row-gap-5 gap-5 justify-content-center">
+                <div class="col-xl-6">
+                  <form class="w-100">
+                    <div class="mb-3 form-floating">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="fullName"
+                        name="fullName"
+                        required
+                        placeholder="Full Name"
+                      />
+                      <label for="fullName">Full Name</label>
+                    </div>
+                    <div class="mb-3 form-floating">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="Email"
+                      />
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="mb-3 form-floating">
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                        placeholder="Message"
+                      ></textarea>
+                      <label for="message">Message</label>
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn btn-primary d-none d-lg-block"
+                    >
+                      Submit
+                    </button>
+                    <div class="text-center d-block d-lg-none">
+                      <button type="submit" class="btn btn-primary">
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-auto">
+                  <div class="d-xl-block d-sm-flex gap-5">
+                    <div class="">
+                      <p class="fw-bold fs-5 p-0 m-0">Contact</p>
+                      <p>h101lab.iu.edu</p>
+                    </div>
+                    <div class="">
+                      <p class="fw-bold fs-5 p-0 m-0">Based in</p>
+                      <p>Bloomington, <br class="d-none d-xl-block" />USA</p>
+                    </div>
+                    <div class="d-flex gap-3 mt-xl-5 pt-xl-3">
+                      <a href="https://www.linkedin.com/" target="_blank">
+                        <i class="bi bi-linkedin fs-1"></i>
+                      </a>
+                      <a href="mailto:example@example.com">
+                        <i class="bi bi-envelope fs-1"></i>
+                      </a>
+                      <a href="#">
+                        <i class="bi bi-twitter-x fs-1"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
