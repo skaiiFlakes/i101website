@@ -159,3 +159,23 @@ textarea:focus {
 .bsb-timeline-1 .timeline > .timeline-item:last-child .timeline-content {
   padding-bottom: 0;
 }
+
+.custom-image {
+  height: 110%;
+  position: absolute;
+  top: -50px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.custom-image-left {
+  left: -300px;
+}
+
+.custom-image-right {
+  right: -300px;
+}
+
+.custom-image.fade-in {
+  opacity: 0.25;
+}
